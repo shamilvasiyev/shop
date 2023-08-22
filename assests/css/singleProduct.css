@@ -1,0 +1,138 @@
+body {
+  background-color: #dbf9fc;
+}
+
+nav {
+  background-color: #fff;
+}
+
+main {
+  margin: 50px 0;
+}
+
+.content-wrapper {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 70px;
+}
+
+.image-box,
+.product-info {
+  width: 50%;
+}
+
+.image-box img {
+  width: 100%;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.product-info h3 {
+  text-transform: capitalize;
+  font-weight: normal;
+  color: #000;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #dfdfdf;
+  font-size: 20px;
+}
+
+.review {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.review i,
+.user-review i {
+  color: #ffd700;
+}
+
+.product-info p {
+  color: #000;
+}
+
+.product-info p span {
+  color: #888888;
+}
+
+.feedback-box {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 35px;
+  margin-bottom: 25px;
+}
+
+.feedback-box:last-child {
+  margin: 0;
+}
+
+.feedback-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feedback-avatar {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.feedback-avatar img {
+  width: 70px;
+}
+
+.feedback-body p {
+  color: #888888;
+  line-height: 25px;
+  font-size: 17px;
+  letter-spacing: 1.5px;
+  font-style: italic;
+  width: 95%;
+  margin: 20px auto;
+}
+
+.create-feedback {
+  width: 50%;
+  margin: 0 auto;
+  background-color: #fff;
+  margin-top: 50px;
+  padding: 30px;
+}
+
+.create-feedback h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.create-feedback form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.create-feedback form input {
+  border: 1px solid #888888;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 18px;
+  color: #888888;
+  display: block;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.create-feedback form button {
+  background-color: #00bfff;
+  color: #fff;
+  margin: 0 auto;
+  width: max-content;
+  padding: 5px 15px;
+  border-radius: 15px;
+  font-size: 17px;
+}

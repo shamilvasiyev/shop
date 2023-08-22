@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../assests/css/navigation.css" />
+    <link rel="stylesheet" href="../assests/css/reset.css" />
+    <link rel="stylesheet" href="../assests/css/singleProduct.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="../index.html">
+            <img src="../assests/images/logo.avif" alt="" />
+          </a>
+
+          <div class="nav-links">
+            <a href="../index.html">Home</a>
+
+            <a href="../index.html">Products</a>
+
+            <a href="#">About</a>
+
+            <a href="./createProduct.html">Create Product</a>
+          </div>
+
+          <div class="nav-right">
+            <button>Login</button>
+
+            <button>Sign in</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div class="container">
+        <div class="content-wrapper"></div>
+
+        <div class="feedbacks-wrapper">
+          <div class="feedbacks"></div>
+
+          <div class="create-feedback">
+            <h2>Leave comment</h2>
+
+            <form>
+              <label for="">
+                <span>Fullname</span>
+
+                <input type="text" name="fullname" id="fullname" />
+              </label>
+
+              <label for="">
+                <span>Comment</span>
+
+                <input type="text" name="comment" id="description" />
+              </label>
+
+              <button class="send-comment-btn">Send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="../js/singleProduct.js"></script>
+  </body>
+</html>

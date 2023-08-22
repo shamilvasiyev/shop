@@ -1,0 +1,38 @@
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  position: relative;
+}
+
+.nav-wrapper > a {
+  width: 60px;
+  height: 60px;
+}
+
+.nav-wrapper > a img {
+  width: 100%;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+}
+
+.nav-right button {
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+.nav-right button:first-child {
+  background-color: var(--main-color);
+}
+
+.nav-right button:first-child {
+  background-color: var(--red);
+  color: #fff;
+}

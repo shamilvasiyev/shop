@@ -1,0 +1,110 @@
+.page-navigation {
+  padding: 40px 0;
+  background-color: var(--main-color);
+  text-align: center;
+}
+
+.page-navigation a {
+  font-size: 15px;
+  padding: 0 20px;
+  color: var(--text-color);
+}
+.page-navigation a:first-child {
+  border-right: 1px solid #000;
+}
+
+.content-wrapper {
+  padding: 20px 0;
+  display: flex;
+  gap: 20px;
+}
+
+.content-products {
+  width: 100%;
+}
+
+.products-wrapper-banner {
+  height: 150px;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("./assests/images/banner.jpg");
+  background-position: bottom;
+}
+
+.products-filter {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  margin: 10px 0;
+  color: var(--text-color);
+}
+
+.filter-sort select {
+  padding: 5px 30px 5px 5px;
+}
+
+.products-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 20px;
+}
+
+.product {
+  padding: 5px;
+  position: relative;
+}
+
+.product .product-link {
+  position: absolute;
+  inset: 0;
+}
+
+.product-body {
+  padding-top: 10px;
+}
+
+.product .product-image {
+  border-radius: 5px 5px 0 0;
+  height: 250px;
+  overflow: hidden;
+}
+.product .product-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.product .product-image img:hover {
+  transform: scale(1.05);
+}
+
+.product-title {
+  color: var(--text-color);
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 24px;
+}
+
+.product-rating {
+  color: var(--gold);
+  margin: 5px 0;
+}
+
+.product-desc {
+  margin-bottom: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.product-price {
+  font-weight: 700;
+  margin-bottom: 0;
+  font-size: 15px;
+  letter-spacing: 0.2px;
+  display: inline-block;
+}

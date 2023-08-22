@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../assests/css/navigation.css" />
+    <link rel="stylesheet" href="../assests/css/reset.css" />
+    <link rel="stylesheet" href="../assests/css/singleProduct.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="../index.html">
+            <img src="../assests/images/logo.avif" alt="" />
+          </a>
+
+          <div class="nav-links">
+            <a href="../index.html">Home</a>
+
+            <a href="../index.html">Products</a>
+
+            <a href="#">About</a>
+
+            <a href="./createProduct.html">Create Product</a>
+          </div>
+
+          <div class="nav-right">
+            <button>Login</button>
+
+            <button>Sign in</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="feedbacks-wrapper" style="margin-bottom: 50px">
+        <div class="feedbacks"></div>
+
+        <div class="create-feedback">
+          <h2>Create product</h2>
+
+          <form>
+            <label for="title">
+              <span>Title</span>
+
+              <input type="text" name="title" id="title" />
+            </label>
+
+            <label for="description">
+              <span>Description</span>
+
+              <input type="text" name="description" id="description" />
+            </label>
+
+            <label for="brand">
+              <span>Brand</span>
+
+              <input type="text" name="brand" id="brand" />
+            </label>
+
+            <label for="category">
+              <span>Category</span>
+
+              <input type="text" name="category" id="category" />
+            </label>
+
+            <label for="thumbnail">
+              <span>Thumbnail(url)</span>
+
+              <input type="text" name="thumbnail" id="thumbnail" />
+            </label>
+
+            <label for="price">
+              <span>Price</span>
+
+              <input type="number" name="price" id="price" />
+            </label>
+
+            <button class="send-comment-btn">Create</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="../js/create.js"></script>
+  </body>
+</html>
